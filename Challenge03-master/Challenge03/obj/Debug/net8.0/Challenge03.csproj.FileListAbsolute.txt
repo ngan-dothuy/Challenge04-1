@@ -58,3 +58,8 @@ D:\Challenge04\Challenge03-master\Challenge03\obj\Debug\net8.0\refint\Challenge0
 D:\Challenge04\Challenge03-master\Challenge03\obj\Debug\net8.0\Challenge03.pdb
 D:\Challenge04\Challenge03-master\Challenge03\obj\Debug\net8.0\Challenge03.genruntimeconfig.cache
 D:\Challenge04\Challenge03-master\Challenge03\obj\Debug\net8.0\ref\Challenge03.dll
+D:\Challenge04\Challenge03-master\Challenge03\bin\Debug\net8.0\Library.dll
+D:\Challenge04\Challenge03-master\Challenge03\bin\Debug\net8.0\Library.pdb
+D:\Challenge04\Challenge03-master\Challenge03\obj\Debug\net8.0\Challenge03.csproj.AssemblyReference.cache
+D:\Challenge04\Challenge03-master\Challenge03\obj\Debug\net8.0\Challenge03.sourcelink.json
+D:\Challenge04\Challenge03-master\Challenge03\obj\Debug\net8.0\Challeng.EFC7B7DF.Up2Date

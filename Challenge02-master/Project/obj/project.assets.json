@@ -1109,6 +1109,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library.dll": {}
+        }
       }
     }
   },
@@ -2906,10 +2916,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Library/1.0.0": {
+      "type": "project",
+      "path": "../../Library/Library.csproj",
+      "msbuildProject": "../../Library/Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Library >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
@@ -2923,11 +2939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Challenge04\\Challenge02-master\\project\\Project.csproj",
+      "projectUniqueName": "D:\\Challenge04\\Challenge02-master\\Project\\Project.csproj",
       "projectName": "Project",
-      "projectPath": "D:\\Challenge04\\Challenge02-master\\project\\Project.csproj",
+      "projectPath": "D:\\Challenge04\\Challenge02-master\\Project\\Project.csproj",
       "packagesPath": "C:\\Users\\ngan.dothuy\\.nuget\\packages\\",
-      "outputPath": "D:\\Challenge04\\Challenge02-master\\project\\obj\\",
+      "outputPath": "D:\\Challenge04\\Challenge02-master\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ngan.dothuy\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2941,7 +2957,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Challenge04\\Library\\Library.csproj": {
+              "projectPath": "D:\\Challenge04\\Library\\Library.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

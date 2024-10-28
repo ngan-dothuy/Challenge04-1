@@ -1,3 +1,4 @@
-namespace Project.Dtos;
+namespace Library;
 
 public record class CategoryDto(int Id, string Name);
+

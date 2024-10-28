@@ -270,3 +270,6 @@ D:\Challenge04\Challenge02-master\project\obj\Debug\net8.0\refint\Project.dll
 D:\Challenge04\Challenge02-master\project\obj\Debug\net8.0\Project.pdb
 D:\Challenge04\Challenge02-master\project\obj\Debug\net8.0\Project.genruntimeconfig.cache
 D:\Challenge04\Challenge02-master\project\obj\Debug\net8.0\ref\Project.dll
+D:\Challenge04\Challenge02-master\Project\bin\Debug\net8.0\Library.dll
+D:\Challenge04\Challenge02-master\Project\bin\Debug\net8.0\Library.pdb
+D:\Challenge04\Challenge02-master\Project\obj\Debug\net8.0\Project.sourcelink.json
